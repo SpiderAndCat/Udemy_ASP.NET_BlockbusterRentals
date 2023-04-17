@@ -29,7 +29,7 @@ namespace BlockbusterRentals.Controllers
             return View(viewModel);
         }
 
-       
+
 
         /*public ActionResult Index(int? pageIndex, string sortBy)
         {
