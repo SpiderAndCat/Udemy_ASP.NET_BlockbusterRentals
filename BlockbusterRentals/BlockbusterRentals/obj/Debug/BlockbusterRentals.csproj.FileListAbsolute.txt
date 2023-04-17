@@ -228,3 +228,5 @@ C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\Block
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.pdb
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.InitialModel.resources
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.csproj.GenerateResource.cache
+C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.AddMembershipType.resources
