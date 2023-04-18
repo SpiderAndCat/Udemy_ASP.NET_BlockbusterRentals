@@ -13,7 +13,7 @@ namespace BlockbusterRentals.Controllers
         // GET: Movies
         public ActionResult Random()
         {
-            // Create instance of a Movie Model
+            // Save instance of a Movie Model
             var movie = new Movie() { Name = "Shrek!" };
             var customers = new List<Customer>
             {
