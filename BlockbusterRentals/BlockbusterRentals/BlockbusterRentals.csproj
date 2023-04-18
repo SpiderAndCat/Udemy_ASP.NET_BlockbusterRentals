@@ -229,6 +229,22 @@
     <Compile Include="Migrations\202304172358515_PopulateMissingBirthdayForOneIndividual.designer.cs">
       <DependentUpon>202304172358515_PopulateMissingBirthdayForOneIndividual.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304180015068_AddFieldsToMovieClass.cs" />
+    <Compile Include="Migrations\202304180015068_AddFieldsToMovieClass.designer.cs">
+      <DependentUpon>202304180015068_AddFieldsToMovieClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304180016030_PopulateMovieData.cs" />
+    <Compile Include="Migrations\202304180016030_PopulateMovieData.designer.cs">
+      <DependentUpon>202304180016030_PopulateMovieData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304180019193_RemoveStringNumberInStockFromMovieModel.cs" />
+    <Compile Include="Migrations\202304180019193_RemoveStringNumberInStockFromMovieModel.designer.cs">
+      <DependentUpon>202304180019193_RemoveStringNumberInStockFromMovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304180020409_PopulateMovies.cs" />
+    <Compile Include="Migrations\202304180020409_PopulateMovies.designer.cs">
+      <DependentUpon>202304180020409_PopulateMovies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -301,6 +317,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Random.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -348,6 +365,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202304172358515_PopulateMissingBirthdayForOneIndividual.resx">
       <DependentUpon>202304172358515_PopulateMissingBirthdayForOneIndividual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304180015068_AddFieldsToMovieClass.resx">
+      <DependentUpon>202304180015068_AddFieldsToMovieClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304180016030_PopulateMovieData.resx">
+      <DependentUpon>202304180016030_PopulateMovieData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304180019193_RemoveStringNumberInStockFromMovieModel.resx">
+      <DependentUpon>202304180019193_RemoveStringNumberInStockFromMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304180020409_PopulateMovies.resx">
+      <DependentUpon>202304180020409_PopulateMovies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

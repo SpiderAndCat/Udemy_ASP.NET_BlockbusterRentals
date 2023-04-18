@@ -41,27 +41,53 @@ namespace BlockbusterRentals.Controllers
         }
         */
 
-        // Pass a Model for the View to display
-        public ViewResult Index()
-        {
-            var movies = GetMovies();
-
-            return View(movies);
-        }
-        // The Model to return to the View
-        private IEnumerable<Movie> GetMovies()
-        {
-            return new List<Movie>
-            {
-                new Movie { Id = 1, Name = "Shrek" },
-                new Movie { Id = 2, Name = "Wall-e" }
-            };
-        }
+   
+    
 
         [Route("movies/released/{year:regex(\\d{4})}/{month:regex(\\d{2}):range(1,12)}")]
         public ActionResult ByReleaseDate(int year, int month)
         {
             return Content(year + "/" + month);
+        }
+
+
+
+
+
+
+
+
+
+
+
+        private ApplicationDbContext _context;
+
+        public MoviesController()
+        {
+            _context = new ApplicationDbContext();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
+        }
+        // GET: Customers
+        public ViewResult Index()
+        {
+            //var customers = GetCustomers();
+
+            //Now, initilize customers as a DB call
+            var movies = _context.Movies.ToList();
+            return View(movies);
+        }
+
+        public ActionResult Details(int id)
+        {
+            var movie = _context.Movies.SingleOrDefault(c => c.Id == id);
+            if (movie == null)
+                return HttpNotFound();
+
+            return View(movie);
         }
     }
 }
