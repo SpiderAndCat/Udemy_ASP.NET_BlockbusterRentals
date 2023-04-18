@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using BlockbusterRentals.Models;
 using System.Data.Entity;
+using BlockbusterRentals.ViewModels;
 
 namespace BlockbusterRentals.Controllers
 {
@@ -43,7 +44,22 @@ namespace BlockbusterRentals.Controllers
 
         public ActionResult New()
         {
-            return View();
+            var membershipTypes = _context.MembershipTypes.ToList();
+            var viewModel = new NewCustomerViewModel
+            {
+                MembershipTypes = membershipTypes 
+            };
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        public ActionResult Create(Customer customer)
+        {
+
+            _context.Customers.Add(customer);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Customers");
         }
     }
-}
+} 
