@@ -245,9 +245,30 @@
     <Compile Include="Migrations\202304180020409_PopulateMovies.designer.cs">
       <DependentUpon>202304180020409_PopulateMovies.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304190240023_RemoveGenreFromMovieModel.cs" />
+    <Compile Include="Migrations\202304190240023_RemoveGenreFromMovieModel.designer.cs">
+      <DependentUpon>202304190240023_RemoveGenreFromMovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304190242164_ProperGenreAndGenreId.cs" />
+    <Compile Include="Migrations\202304190242164_ProperGenreAndGenreId.designer.cs">
+      <DependentUpon>202304190242164_ProperGenreAndGenreId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304190250404_AddGenreTable.cs" />
+    <Compile Include="Migrations\202304190250404_AddGenreTable.designer.cs">
+      <DependentUpon>202304190250404_AddGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304190251413_AddGenresIntoDB.cs" />
+    <Compile Include="Migrations\202304190251413_AddGenresIntoDB.designer.cs">
+      <DependentUpon>202304190251413_AddGenresIntoDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304190254242_IntroduceGenreForeignKey.cs" />
+    <Compile Include="Migrations\202304190254242_IntroduceGenreForeignKey.designer.cs">
+      <DependentUpon>202304190254242_IntroduceGenreForeignKey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -379,6 +400,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202304180020409_PopulateMovies.resx">
       <DependentUpon>202304180020409_PopulateMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304190240023_RemoveGenreFromMovieModel.resx">
+      <DependentUpon>202304190240023_RemoveGenreFromMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304190242164_ProperGenreAndGenreId.resx">
+      <DependentUpon>202304190242164_ProperGenreAndGenreId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304190250404_AddGenreTable.resx">
+      <DependentUpon>202304190250404_AddGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304190251413_AddGenresIntoDB.resx">
+      <DependentUpon>202304190251413_AddGenresIntoDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304190254242_IntroduceGenreForeignKey.resx">
+      <DependentUpon>202304190254242_IntroduceGenreForeignKey.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
