@@ -222,12 +222,7 @@ C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\Block
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.csproj.AssemblyReference.cache
-C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.csproj.CoreCompileInputs.cache
-C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.csproj.CopyComplete
-C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.dll
-C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.pdb
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.InitialModel.resources
-C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.csproj.GenerateResource.cache
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.AddIsSubscribedToCustomer.resources
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.AddMembershipType.resources
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.PopulateMembershipTypes.resources
@@ -247,3 +242,8 @@ C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\Block
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.AddGenresIntoDB.resources
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.IntroduceGenreForeignKey.resources
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.ChangeMovieDateValueType.resources
+C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.csproj.GenerateResource.cache
+C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.csproj.CoreCompileInputs.cache
+C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.csproj.CopyComplete
+C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.dll
+C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.pdb
