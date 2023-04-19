@@ -7,6 +7,9 @@ using System.Web.Mvc;
 using BlockbusterRentals.Migrations;
 using BlockbusterRentals.Models;
 using BlockbusterRentals.ViewModels;
+using BlockbusterRentals.Dtos;
+using AutoMapper;
+
 
 namespace BlockbusterRentals.Controllers
 {
