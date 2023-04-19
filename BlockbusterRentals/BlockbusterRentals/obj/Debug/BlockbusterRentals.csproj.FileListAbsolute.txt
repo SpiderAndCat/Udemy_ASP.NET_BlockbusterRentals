@@ -249,3 +249,5 @@ C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\Block
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.pdb
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\bin\Swashbuckle.Core.dll
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\bin\WebActivatorEx.dll
+C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\bin\AutoMapper.dll
+C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\bin\AutoMapper.xml
