@@ -246,3 +246,4 @@ C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\Block
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.AddGenreTable.resources
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.AddGenresIntoDB.resources
 C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.IntroduceGenreForeignKey.resources
+C:\Users\spiderandcat\Documents\GitHub\ASP.NET_SQL_BlockbusterVideoRentals\BlockbusterRentals\BlockbusterRentals\obj\Debug\BlockbusterRentals.Migrations.ChangeMovieDateValueType.resources

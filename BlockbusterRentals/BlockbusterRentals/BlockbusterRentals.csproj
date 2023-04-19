@@ -265,6 +265,10 @@
     <Compile Include="Migrations\202304190254242_IntroduceGenreForeignKey.designer.cs">
       <DependentUpon>202304190254242_IntroduceGenreForeignKey.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304190302119_ChangeMovieDateValueType.cs" />
+    <Compile Include="Migrations\202304190302119_ChangeMovieDateValueType.designer.cs">
+      <DependentUpon>202304190302119_ChangeMovieDateValueType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -415,6 +419,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202304190254242_IntroduceGenreForeignKey.resx">
       <DependentUpon>202304190254242_IntroduceGenreForeignKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304190302119_ChangeMovieDateValueType.resx">
+      <DependentUpon>202304190302119_ChangeMovieDateValueType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

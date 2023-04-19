@@ -19,12 +19,10 @@ namespace BlockbusterRentals.Models
         public Genre Genre { get; set; }
         public byte GenreId { get; set; }
 
-        [Required]
-        public string ReleaseDate { get; set; }
+        public DateTime DateAdded { get; set; }
 
-        [Required]
-        public string DateAdded { get; set; }
-        
+        public DateTime ReleaseDate { get; set; }
+
         [Required]
         public int NumberInStock { get; set; }
     }
