@@ -52,6 +52,9 @@ else
 {
     <script>
         $(document).ready(function () {
+
+            $(customers).DataTable();
+
             //$("#customers .js-delete").on("click", function () { IN EFFICIENT, because method PER delete button stored in memory
             // Better way is as follows:
             $("#customers").on("click", ".js-delete", function () { // now matches 1 hgandler (cusgtomers) instead of 100s handler matching (customer, js-delete)
