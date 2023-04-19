@@ -52,21 +52,27 @@ else
 {
     <script>
         $(document).ready(function () {
-            $("#customers .js-delete").on("click", function () {
+            //$("#customers .js-delete").on("click", function () { IN EFFICIENT, because method PER delete button stored in memory
+            // Better way is as follows:
+            $("#customers").on("click", ".js-delete", function () { // now matches 1 hgandler (cusgtomers) instead of 100s handler matching (customer, js-delete)
                 var button = $(this);
-                if (confirm("Are you sure you want to delete this customer?")) {
-                    // Call the API using jQuery Ajax
+                bootbox.confirm("Are you sure you want to delete this customer?", function (result) {
+                    if (result) {
+                        // Call the API using jQuery Ajax
                     //$ is the symbol for jQuery.
-                    $.ajax({
-                        url: "/api/customers/" + button.attr("data-customer-id"),
-                        method: "DELETE",
-                        success: function () {
-                            button.parents("tr").remove();
-                           
-                        }
+                        $.ajax({
+                            url: "/api/customers/" + button.attr("data-customer-id"),
+                            method: "DELETE",
+                            success: function () {
+                                button.parents("tr").remove();
+
+                            }
 
                         });
-                }
+                    }
+
+                });
+               
 
             });
 
