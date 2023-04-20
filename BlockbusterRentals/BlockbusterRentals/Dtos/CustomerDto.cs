@@ -21,6 +21,7 @@ namespace BlockbusterRentals.Dtos
         public bool IsSubscribedToNewsletter { get; set; }
 
         //public MembershipType MembershipType { get; set; } // a Navigation property
+        public MembershipTypeDto MembershipType { get; set; }
 
         //[Display(Name = "Membership Type")]
         public byte MembershipTypeID { get; set; } // a Navigation property, used as the foeign key bc convention

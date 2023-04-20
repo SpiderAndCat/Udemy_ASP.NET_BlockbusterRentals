@@ -29,8 +29,14 @@ namespace BlockbusterRentals.Controllers
             //var customers = GetCustomers();
 
             //Now, initilize customers as a DB call
-            var customers = _context.Customers.Include(c => c.MembershipType).ToList(); 
+
+
+            /* Don;t need the list of Customers, now that the API is serving the data to populate the table client-side
+             * var customers = _context.Customers.Include(c => c.MembershipType).ToList(); 
             return View(customers);
+            */
+
+            return View();
         }
 
         public ActionResult Details(int id)
