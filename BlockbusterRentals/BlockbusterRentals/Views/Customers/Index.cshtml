@@ -1,5 +1,5 @@
 ﻿
-@model IEnumerable<BlockbusterRentals.Models.Customer>
+@*@model IEnumerable<BlockbusterRentals.Models.Customer>*@
 @*
     Course Note: I've set the model for this view to IEnumerable<Customer>.
     This is a simple interface implemented by the list class. Since
@@ -53,7 +53,7 @@
     <script>
         $(document).ready(function () {
 
-            $(customers).DataTable({
+            var table = $(customers).DataTable({ //storing it as a table allows it to be reloaded and altered more easily
 
                 ajax: {
                     url: "/api/customers",
@@ -94,7 +94,7 @@
                             url: "/api/customers/" + button.attr("data-customer-id"),
                             method: "DELETE",
                             success: function () {
-                                button.parents("tr").remove();
+                                table.row(button.parents("tr")).remove().draw();
 
                             }
 
